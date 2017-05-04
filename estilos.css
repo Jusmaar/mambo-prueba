@@ -1,0 +1,33 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.encabezado{
+	position: fixed;
+	background-color: blueviolet;
+	margin-bottom: 50px;
+	z-index: 3;
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+}
+h2{
+	display: inline;
+	margin-right: 20px;
+}
+form{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+#tabla{
+	position: absolute;
+	top: 100px;
+	z-index: 2;
+}
+img{
+	cursor: pointer;
+}
+.modal{
+	
+	height: 100px;
+}

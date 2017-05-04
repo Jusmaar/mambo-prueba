@@ -3,12 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Agenda</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
 <body>
 
-    <h2>Agenda</h2>
+    <header class="encabezado">
+        <h2>Agenda</h2>
 
-    <table>
+        <form>
+            <input type="text" placeholder="Buscar por nombre"></input>
+            <button type="submit">Buscar</button>
+        </form>
+
+        <button id="asc">Ascendete</button>
+
+        <button id="des">Descendete</button>
+    </header>
+    
+
+
+
+    <table id="tabla">
         <thead>
             <tr>
                 <td><strong>Nombre</strong></td>
@@ -424,5 +439,7 @@
     </table>
 
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="sortTable.js"></script>
+    <script type="text/javascript" src="agenda.js"></script>
 </body>
 </html>
